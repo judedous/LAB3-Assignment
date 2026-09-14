@@ -1,1 +1,88 @@
-27 ?- male(ali).true.28 ?- male(bader).true.29 ?- female(shrouq).true.30 ?- male(husain).true.31 ?- female(jude).true.32 ?- male(abdulaziz).true.33 ?- female(fatten).true.34 ?- parent(ali,bader).true.35 ?- parent(ali,husain).true.36 ?- parent(shrouq,fatten).false.37 ?- parent(shrouq,jude).true.38 ?- mother(shrouq,fatten).false.39 ?- father(bader,jude).true.40 ?- |    father(ali,bader).true.41 ?- mother(shrouq,abdulaziz).true.42 ?- sister(jude,fatten).false.43 ?- |    sister(jude,abdulaziz).true .44 ?- brother(abdulaziz,fatten).false.45 ?- brother(abdulaziz,jude).true 
+27 ?- male(ali).
+true.
+
+
+28 ?- male(bader).
+true.
+
+
+29 ?- female(shrouq).
+true.
+
+
+30 ?- male(husain).
+true.
+
+
+31 ?- female(jude).
+true.
+
+
+32 ?- male(abdulaziz).
+true.
+
+
+33 ?- female(fatten).
+true.
+
+
+34 ?- parent(ali,bader).
+true.
+
+
+35 ?- parent(ali,husain).
+true.
+
+
+36 ?- parent(shrouq,fatten).
+false.
+
+
+37 ?- parent(shrouq,jude).
+true.
+
+
+38 ?- mother(shrouq,fatten).
+false.
+
+
+39 ?- father(bader,jude).
+true.
+
+
+40 ?- father(ali,bader).
+true.
+
+
+41 ?- mother(shrouq,abdulaziz).
+true.
+
+
+42 ?- sister(jude,fatten).
+false.
+
+
+43 ?- sister(jude,abdulaziz).
+true .
+
+
+44 ?- brother(abdulaziz,fatten).
+false.
+
+
+45 ?- brother(abdulaziz,jude).
+true 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
