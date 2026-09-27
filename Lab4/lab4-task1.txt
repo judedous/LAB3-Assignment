@@ -57,6 +57,7 @@ A = f, B = f.
 
 56 ?- A = B, B = f, A = e.
 false.
+
 % Because variable A and variable B are linked together and B gets instantiated to f. since A is linked to B, A is already bound to f, then A gets unified with e so the two constants are compared f ­ e so the query fails.
 
 
