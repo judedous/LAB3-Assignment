@@ -1,0 +1,1 @@
+60 ?- female(X).X = sara ;X = nora.60 ?- male(_).true .61 ?- parent(X, muhammad), parent(muhammad, faisal).X = ali.62 ?- parent(ahmad, X), female(X).X = sara ;X = nora ;false.63 ?- parent(X, ahmad), parent(X, muhammad).X = ali.64 ?- parent(P, khan), parent(P, nora), male(khan).P = ahmad.
